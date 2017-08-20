@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Color for Scooter map low battery indicator -->
+    <color name="map_pin_battery_low">#d50000</color>
+
+    <!-- Color for Scooter map medium battery indicator -->
+    <color name="map_pin_battery_medium">#ffea00</color>
+
+    <!-- Color for Scooter map high battery indicator -->
+    <color name="map_pin_battery_high">#64dd17</color>
+    <color name="white">#FFFFFF</color>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kotlin Google Maps</string>
+    <string name="title_activity_maps">Scooter Map</string>
+    <string name="map_scooter_snippet">Range: %skm (Battery: %d%%)</string>
+    <string name="scooter_debug_high_battery">%d High</string>
+    <string name="scooter_debug_medium_battery">%d Medium</string>
+    <string name="scooter_debug_low_battery">%d Low</string>
+    <string name="splashscreen_bottomline">Damian Burke</string>
+    <string name="splashscreen_bottomline_small">Kotlin, RxJava2, Dagger2, MVP, …</string>
+</resources>
