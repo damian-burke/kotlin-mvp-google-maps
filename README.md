@@ -11,6 +11,8 @@ Currently, the application utilizes the following technologies and libraries
 
 The application is built following the `MVP` architecture.
 
+![Screenshot](https://github.com/damian-burke/kotlin-mvp-google-maps/blob/master/screenshot.png)
+
 ## How to
 
 In order to use this application, a `config.properties` file has to be created in 

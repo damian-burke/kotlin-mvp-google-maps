@@ -52,6 +52,7 @@ class MapsActivity : BaseActivity<MapsContract.View, MapsContract.Presenter>(), 
                     .title("Scooter ${licensePlate}"))
         })
 
+        marker?.tag = id
         marker?.setSnippet(getString(R.string.map_scooter_snippet, String.format(Locale.getDefault(), "%.2f", distance), battery))
         marker?.setIcon(BitmapDescriptorFactory.defaultMarker(color))
     }
@@ -75,6 +76,10 @@ class MapsActivity : BaseActivity<MapsContract.View, MapsContract.Presenter>(), 
             // tell presenter our map has been moved, refresh data set according to it
             val bounds = mMap.projection.visibleRegion.latLngBounds
             presenter.setMapBoundaries(bounds)
+        }
+        mMap.setOnMarkerClickListener { marker ->
+            presenter.clickScooter(marker.tag as String)
+            true
         }
         mapFragment.view?.onLayoutChange {
             mapLayoutReady = true
