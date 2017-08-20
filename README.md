@@ -11,7 +11,7 @@ Currently, the application utilizes the following technologies and libraries
 
 The application is built following the `MVP` architecture.
 
-![Screenshot](https://github.com/damian-burke/kotlin-mvp-google-maps/blob/master/screenshot.png)
+![Screenshot](https://github.com/damian-burke/kotlin-mvp-google-maps/blob/master/screenshot.png | width=200)
 
 ## How to
 
